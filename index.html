@@ -3,7 +3,29 @@
 	<head>
 	<meta charset="utf-8">
 	<title>Out of This World</title>
-		
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!--
+ target the first letter of every word
+
+window.onload = function(){
+  var elements = document.getElementsByClassName("each-word")
+  for (var i=0; i<elements.length; i++){
+    elements[i].innerHTML = elements[i].innerHTML.replace(/\\b([a-z])([a-z]+)?\\b/gim, "<span class='first-letter'>$1</span>$2")
+  }
+}
+
+<style>
+  .first-letter {
+    color: red;
+  }
+</style>
+<p class="each-word">First letter of every word is now red!</p>
+
+
+-->
+
+
 	</head>
 
 	<body>
@@ -14,16 +36,16 @@
 			<nav id="nav">
 				<ul>
 					<li><a class='active' href="">Globular</a></li>
-					<li><a class='nav_item' href="">Start= Cluster</a></li>
-					<li><a class='nav_item' href="">Hydrogen Atom</a></li>
-					<li><a class='nav_item' href="">Star Stuff</a></li>
+					<li><a class='nav_item' href="#">Start= Cluster</a></li>
+					<li><a class='nav_item' href="#">Hydrogen Atom</a></li>
+					<li><a class='nav_item' href="#">Star Stuff</a></li>
 					<ul>
 						<li><a class='sub_nav' href="">Apollonius</a>
 						</li>
 						<li><a class='sub_nav' href="">Perga</a>
 						</li>
 					</ul>
-					<li><a class='nav_item' href="">Euclid</a></li>
+					<li><a class='nav_item' href="#">Euclid</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -31,7 +53,7 @@
 			<div id="main_content">
 				<section>
 					<h3>Star Cluster Colonies</h3>
-					<p class="firstwordwrap" >Cosmos. Hearts of the stars Euclid. Worldlets a mote of dust suspended in a sunbeam tesseract Tunguska event, intelligent beings laws of physics radio telescope trillion cosmic ocean. Tendrils of gossamer clouds inconspicuous motes of rock and gas, globular star cluster hydrogen atoms star stuff harvesting star light take root and flourish galaxies Euclid with pretty stories for which there's little good evidence encyclopaedia galactica, Hypatia! As a patch of light Flatland stirred by starlight circumnavigated extraordinary claims require extraordinary evidence tesseract!</p>
+					<p class="firstwordwrap" >'Cosmos'. Hearts of the stars Euclid. Worldlets a mote of dust suspended in a sunbeam tesseract Tunguska event, intelligent beings laws of physics radio telescope trillion cosmic ocean. Tendrils of gossamer clouds inconspicuous motes of rock and gas, globular star cluster hydrogen atoms star stuff harvesting star light take root and flourish galaxies Euclid with pretty stories for which there's little good evidence encyclopaedia galactica, Hypatia! As a patch of light Flatland stirred by starlight circumnavigated extraordinary claims require extraordinary evidence tesseract!</p>
 					<h3>Saturn's Many Moons</h3>
 					<ul>
 						<li>Mimas</li>
@@ -99,12 +121,13 @@
 							<li>S/2007 S3 </li>
 							<li>S/2009 S1  </li>
 						</ul>
-					<p class="firstwordwrap">Galaxies. Descended from astronomers Jean-François Champollion Rig Veda. From which we spring Apollonius of Perga, made in the interiors of collapsing stars Vangelis. Galaxies consciousness. Tunguska event. Globular star cluster descended from astronomers. A billion trillion, cosmic fugue network of wormholes kindling the energy hidden in matter billions upon billions star stuff harvesting star light, prime number the ash of stellar alchemy. Consciousness Sea of Tranquility vanquish the impossible science. Light years.</p>			 
 					</ul>
+					<!-- valamiert beljebb huzza a kovetkezo bekezdest-->	
+					<p class="firstwordwrap">'Galaxies'. Descended from astronomers Jean-François Champollion Rig Veda. From which we spring Apollonius of Perga, made in the interiors of collapsing stars Vangelis. Galaxies consciousness. Tunguska event. Globular star cluster descended from astronomers. A billion trillion, cosmic fugue network of wormholes kindling the energy hidden in matter billions upon billions star stuff harvesting star light, prime number the ash of stellar alchemy. Consciousness Sea of Tranquility vanquish the impossible science. Light years.</p>	
 				</section>
 				<section>
 					<h3>Cosmic Fugue</h3>
-					<p class="firstwordwarp">Birth. Cosmic fugue! Cosmic ocean colonies? At the edge of forever made in the interiors of collapsing stars Jean-François Champollion of brilliant syntheses extraordinary claims require extraordinary evidence bits of moving fluff consciousness Tunguska event, the sky calls to us extraplanetary. </p>
+					<p class="firstwordwarp">'Birth'. Cosmic fugue! Cosmic ocean colonies? At the edge of forever made in the interiors of collapsing stars Jean-François Champollion of brilliant syntheses extraordinary claims require extraordinary evidence bits of moving fluff consciousness Tunguska event, the sky calls to us extraplanetary. </p>
 					<p class="excerpt">Descended from astronomers encyclopaedia galactica. Cosmos Jean-François Champollion galaxies! Astonishment finite but unbounded of brilliant syntheses, with pretty stories for which there's little good evidence not a sunrise but a galaxyrise stirred by starlight dream of the mind's eye from which we spring! From which we spring Tunguska event, billions upon billions, Orion's sword?</p>
 					<p>A very small stage in a vast cosmic arena! Courage of our questions, preserve and cherish that pale blue dot trillion, encyclopaedia galactica Apollonius of Perga.</p>
 					<h3>Our Solar System</h3>
@@ -126,15 +149,12 @@
 					<h4>Corpus Callosum</h4>
 					<p>Another world tingling of the spine, preserve and cherish that pale blue dot a billion trillion quasar a billion trillion preserve and cherish that pale blue dot, shores of the cosmic ocean radio telescope. Inconspicuous motes of rock and gas. Hypatia realm of the galaxies Tunguska event!</p>
 				</aside>
-				
+				<footer id="footer">
+					<p>Carl Sagan &copy; 2024 <a href="http://saganipsum.com">saganipsum.com</a></p>
+				</footer>
 			</div>
 		</div>
 
-
-
-
 	</body>
-
-
 
 </html>
